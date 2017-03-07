@@ -1,6 +1,6 @@
 {
   "name": "yquery",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A pun of jquery",
   "main": "src/index.js",
   "scripts": {
@@ -10,13 +10,13 @@
   },
   "keywords": [],
   "author": {
-    "name" : "Yeri",
-    "email" : "pirey.fira@gmail.com",
-    "url" : "https://pirey.github.io"
+    "name": "Yeri",
+    "email": "pirey.fira@gmail.com",
+    "url": "https://pirey.github.io"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/pirey/yquery.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pirey/yquery.git"
   },
   "license": "ISC",
   "devDependencies": {
