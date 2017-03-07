@@ -9,7 +9,15 @@
     "build": "webpack"
   },
   "keywords": [],
-  "author": "Yeri",
+  "author": {
+    "name" : "Yeri",
+    "email" : "pirey.fira@gmail.com",
+    "url" : "https://pirey.github.io"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/pirey/yquery.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "webpack": "^2.2.1"
