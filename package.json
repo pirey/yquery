@@ -1,0 +1,16 @@
+{
+  "name": "yquery",
+  "version": "1.0.0",
+  "description": "A pun of jquery",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --progress --watch --display-error-details"
+  },
+  "keywords": [],
+  "author": "Yeri",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
+}
