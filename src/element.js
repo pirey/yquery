@@ -2,7 +2,7 @@ function YqueryElement (el) {
   this.el = el;
 }
 
-YqueryElement.prototype.content = function (content) {
+YqueryElement.prototype.html = function (content) {
   if (!content) {
     return this.el.innerHTML;
   }

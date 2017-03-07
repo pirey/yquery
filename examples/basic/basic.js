@@ -1,19 +1,26 @@
-var $ = require('yquery');
+var $ = require('../../src/yquery');
 var counter = 0;
 
 window.$ = $;
 
-var demo = $('#demo');
-demo.content('DEMO');
+// get single element
+var single = $('#single');
+single.html('single');
 
-var demos = $.byClass('demo');
-demos.loop(function (item, i) {
-  item.content('Item ' + i);
+var collection = $.byClass('single');
+// or
+// var collection = $('.single', true);
+collection.loop(function (item, i) {
+  item.html('Item ' + i);
 });
 
-demos.item(0).content('Foo');
+// get single yquery element
+collection.item(0).html('Foo');
 
-demos.on('click', function (e, el) {
-  el.content('clicked ' + counter + ' times');
+// event listener
+// you can also do this to single element
+// single.on('click', function () { ... })
+collection.on('click', function (e, el) {
+  el.html('clicked ' + counter + ' times');
   counter++;
 });
