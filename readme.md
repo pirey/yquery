@@ -10,9 +10,9 @@ This is a pun of the mighty [jQuery](http://jquery.com/) :P
 
 Check out the [example](examples/basic/basic.js)
 
-## Contribute
+## Development
 
-- Clone this repo
+- fork / clone the repo
 - `cd project-directory`
 - `npm install`
 - `npm run build`
