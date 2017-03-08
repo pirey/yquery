@@ -7,15 +7,13 @@ window.$ = $;
 var single = $('#single');
 single.html('single');
 
-var collection = $.byClass('single');
-// or
-// var collection = $('.single', true);
+var collection = $.all('.item');
 collection.loop(function (item, i) {
   item.html('Item ' + i);
 });
 
-// get single yquery element
-collection.item(0).html('Foo');
+// get collection member, and set the content for that single element
+collection.item(0).html('This is item 0');
 
 // event listener
 // you can also do this to single element
